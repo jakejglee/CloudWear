@@ -2523,13 +2523,11 @@
 				#banner header {
 					padding: 1.5em 1em 1.5em 1em;
 				}
-
 					#banner header h2 {
 						font-size: 1.5em;
 						line-height: 1.5em;
 						margin: 0 0 0.25em 0;
 					}
-
 					#banner header p {
 						font-size: 1.2em;
 					}
@@ -2548,7 +2546,7 @@
 
 .wrapper {
     display:inline-block;
-    height: 210px;
+    height: 310px;
     vertical-align: top;
 }
 .image-wrapper {
@@ -2557,14 +2555,44 @@
     height: 200px;
     padding: 5px;
 }
-.button-wrapper {
+.button-1-right {
+    display:inline-block;
+    vertical-align: top;
+    height: 200px;
+    padding: 5px;
+}
+.button-1-left {
+    display:inline-block;
+    vertical-align: top;
+    height: 200px;
+    padding: 5px;
+}
+.button-2-right {
+    display:inline-block;
+    vertical-align: top;
+    height: 200px;
+    padding: 5px;
+}
+.button-2-left {
+    display:inline-block;
+    vertical-align: top;
+    height: 200px;
+    padding: 5px;
+}
+.button-3-right {
+    display:inline-block;
+    vertical-align: top;
+    height: 200px;
+    padding: 5px;
+}
+.button-3-left {
     display:inline-block;
     vertical-align: top;
     height: 200px;
     padding: 5px;
 }
 img {
-    height: 200px;
+    width: 170px;
 }
 input {
     height: 70px;

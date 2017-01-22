@@ -19,6 +19,59 @@
 				}
 			}
 		});
+    
+var urlArray = ['images/shirt.jpg','images/pants.jpg','images/hat.jpg'];
+
+var HEADlinkforward = "images/shirt.jpg"
+var HEADlinkback = "images/pants.jpg"
+
+var TOPlinkforward = "images/shirt.jpg"
+var TOPlinkback = "images/pants.jpg"
+
+var BOTTOMlinkforward = "images/shirt.jpg"
+var BOTTOMlinkback = "images/pants.jpg"
+
+    $(function() {
+ $('.button-1-left').click(function(e){
+     e.preventDefault();
+   $("#head").attr('src',HEADlinkback);
+ });
+});
+    
+    $(function() {
+ $('.button-1-right').click(function(e){
+     e.preventDefault();
+   $("#head").attr('src',HEADlinkforward);
+ });
+});
+    
+    $(function() {
+ $('.button-2-left').click(function(e){
+     e.preventDefault();
+   $("#top").attr('src',TOPlinkback);
+ });
+});
+    
+    $(function() {
+ $('.button-2-right').click(function(e){
+     e.preventDefault();
+   $("#top").attr('src',TOPlinkforward);
+ });
+});
+    
+    $(function() {
+ $('.button-3-left').click(function(e){
+     e.preventDefault();
+   $("#bottom").attr('src',BOTTOMlinkback);
+ });
+});
+    
+    $(function() {
+ $('.button-3-right').click(function(e){
+     e.preventDefault();
+   $("#bottom").attr('src',BOTTOMlinkforward);
+ });
+});
 
 	$(function() {
 
